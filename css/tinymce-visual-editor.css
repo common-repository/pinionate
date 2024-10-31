@@ -1,0 +1,123 @@
+.wp_pinion_container {
+	position: relative;
+	max-width: 100%;
+	width: 96%;
+	height: auto;
+	margin: 0 auto 10px auto;
+	-webkit-transition: 0.5s;
+	transition: all 0.5s;
+	padding: 2% !important;
+	border: 3px dashed #eee !important;
+}
+
+.wp_pinion_container:hover,
+.wp_pinion_container:focus {
+	border-color: #bbb !important;
+}
+
+.wp_pinion_placeholder {
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	box-shadow: none;
+	margin: 0 auto;
+	text-align: center;
+	cursor: pointer;
+	opacity: 0.2;
+}
+
+.wp_pinion_info {
+	padding: 0 2% 2%;
+	width: 96%;
+	cursor: default;
+}
+
+.wp_pinion_title {
+	width: 85%;
+	margin: 0;
+	color: #666;
+	font-size: 1.5em;
+	font-weight: normal;
+	line-height: 1.3em;
+}
+
+.wp_pinion_meta {
+	color: #999;
+	font-size: 0.9em;
+	font-style: italic;
+	margin: 0;
+}
+
+.wp_pinion_author {
+	color: #0ae;
+}
+
+.wp_pinion_embed {
+	text-align: center;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	padding-top: 0.75em;
+	text-transform: uppercase;
+}
+
+.wp_pinion_buttons {
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	cursor: pointer;
+    z-index: 2;
+}
+
+.wp_pinion_edit,
+.wp_pinion_delete {
+	position: absolute;
+	top: 3.35%;
+	width: 35px;
+	height: 35px;
+	padding: 5px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 21px 21px;
+	cursor: pointer;
+	z-index:2;
+	right: 25px;
+	background-image: url( './../img/action_close_grey.png' );
+}
+
+.wp_pinion_delete:hover,
+.wp_pinion_delete:focus {
+	background-image: url( './../img/action_close_blue.png' );
+}
+
+.wp_pinion_edit {
+	right: 70px;
+	background-image: url( './../img/action_edit_grey.png' );
+}
+
+.wp_pinion_edit:hover,
+.wp_pinion_edit:focus {
+	background-image: url( './../img/action_edit_blue.png' );
+}
+span.mce-preview-object.mce-object-iframe {
+	display: inherit;
+	border: 0;
+}
+
+.wp_pinion_bg {
+	position: absolute;
+	top: 17px;
+	right: 20px;
+	width: 120px;
+	height: 42px;
+	background: #fafafa;
+	z-index: 1;
+}
